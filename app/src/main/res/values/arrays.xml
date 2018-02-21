@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speedEntries">
+        <item>@string/speed10</item>
+        <item>@string/speed20</item>
+        <item>@string/speed30</item>
+    </string-array>
+    <string-array name="speedValues">
+        <item>@string/speed_10_value</item>
+        <item>@string/speed_20_value</item>
+        <item>@string/speed_30_value</item>
+    </string-array>
+    <string-array name="bgColorEntries">
+        <item>@string/white</item>
+        <item>@string/black</item>
+    </string-array>
+    <string-array name="bgColorValues">
+        <item>@string/bg_color_white_value</item>
+        <item>@string/bg_color_black_value</item>
+    </string-array>
+    <string-array name="textColorEntries">
+        <item>@string/black</item>
+        <item>@string/white</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="textColorValues">
+        <item>@string/text_color_black_value</item>
+        <item>@string/text_color_white_value</item>
+        <item>@string/text_color_blue_value</item>
+        <item>@string/text_color_red_value</item>
+    </string-array>
+    <string-array name="textSizeEntries">
+        <item>@string/small</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+    <string-array name="textSizeValues">
+        <item>@string/text_size_small_value</item>
+        <item>@string/text_size_medium_value</item>
+        <item>@string/text_size_large_value</item>
+    </string-array>
+</resources>
