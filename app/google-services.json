@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "573292586850",
-    "firebase_url": "https://pocketprompter-3b1ae.firebaseio.com",
-    "project_id": "pocketprompter-3b1ae",
-    "storage_bucket": "pocketprompter-3b1ae.appspot.com"
+    "project_number": "220865734273",
+    "firebase_url": "https://pocketprompter-56551.firebaseio.com",
+    "project_id": "pocketprompter-56551",
+    "storage_bucket": "pocketprompter-56551.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:573292586850:android:bbeb814c77a9cffc",
+        "mobilesdk_app_id": "1:220865734273:android:bbeb814c77a9cffc",
         "android_client_info": {
           "package_name": "com.priyankanandiraju.pocketprompter"
         }
       },
       "oauth_client": [
         {
-          "client_id": "573292586850-a1bda6easutv35i7590pkcfa6388nj1f.apps.googleusercontent.com",
+          "client_id": "220865734273-rp8tl7g27f03cfdpp1nsdmhg4qr892rj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyATrLiAR7dGaA5gozTfiByntxT1LQw6FCQ"
+          "current_key": "AIzaSyDWOLG7sEXHjt0f1zhv2Fb4qA6DXVmJGLI"
         }
       ],
       "services": {
