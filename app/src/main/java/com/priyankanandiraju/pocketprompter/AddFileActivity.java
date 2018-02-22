@@ -286,7 +286,7 @@ public class AddFileActivity extends AppCompatActivity implements View.OnClickLi
                 TeleprompterFileEvent.COLUMN_FILE_IS_FAV,
         };
         return new CursorLoader(this,
-                TeleprompterFileEvent.CONTENT_URI,
+                mCurrentUri,
                 projection,
                 null,
                 null,

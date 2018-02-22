@@ -48,7 +48,7 @@ public class TeleprompterFilesProvider extends ContentProvider {
                         null, null, sortOrder);
                 break;
             case TELEPROMPTER_FILE_ITEM:
-                selection = selection + "=?";
+                selection = TeleprompterFileEvent._ID + "=?";
                 selectionArgs = new String[]{String.valueOf(ContentUris.parseId(uri))};
                 cursor = database.query(TeleprompterFileEvent.TABLE_NAME, projection, selection, selectionArgs,
                         null, null, sortOrder);
