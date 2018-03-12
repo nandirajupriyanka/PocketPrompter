@@ -54,6 +54,7 @@ import butterknife.ButterKnife;
 import static com.priyankanandiraju.pocketprompter.utils.Constants.DIALOG_TAG_LICENSES;
 import static com.priyankanandiraju.pocketprompter.utils.Constants.EXTRA_FILE_DATA;
 import static com.priyankanandiraju.pocketprompter.utils.Constants.INTENT_EXTRA_CONTENT;
+import static com.priyankanandiraju.pocketprompter.utils.Constants.PRIVACY_POLICY_URL;
 import static com.priyankanandiraju.pocketprompter.utils.Constants.SHARED_PREF_FILE;
 
 public class MainActivity extends AppCompatActivity implements TeleprompterFilesAdapter.OnFileClickListener,
@@ -155,9 +156,20 @@ public class MainActivity extends AppCompatActivity implements TeleprompterFiles
         } else if (id == R.id.action_licenses) {
             LicensesFragment dialog = LicensesFragment.newInstance();
             dialog.show(getSupportFragmentManager(), DIALOG_TAG_LICENSES);
+        } else if (id == R.id.privacy_policy) {
+            openPrivacyPolicyPage();
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openPrivacyPolicyPage() {
+        Log.v(TAG, "openPrivacyPolicyPage()");
+        Uri privacyPolicyUrl = Uri.parse(PRIVACY_POLICY_URL);
+        Intent intent = new Intent(Intent.ACTION_VIEW, privacyPolicyUrl);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
     @Override

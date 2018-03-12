@@ -91,5 +91,6 @@
     <string name="edit_a_file">Edit a file</string>
     <string name="update_failed">Update Failed. Please try later.</string>
     <string name="update_successful">Updated successfully</string>
+    <string name="privacy_policy">Privacy Policy</string>
 
 </resources>
